@@ -81,3 +81,6 @@ Data modeling & relational structure design
 
 Impact
 This dashboard demonstrates structured KPI design, hierarchical performance analysis, and quality monitoring logic suitable for operational and managerial decision-making environments.
+
+## Author
+George Proikas
