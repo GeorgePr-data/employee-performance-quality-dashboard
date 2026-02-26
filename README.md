@@ -1,12 +1,12 @@
-Employee Performance & Quality Monitoring Dashboard (Power BI)
+##Employee Performance & Quality Monitoring Dashboard (Power BI)
 
-Overview
+##Overview
 
 This Power BI dashboard evaluates employee performance across supervisors, focusing on workload, quality outcomes, and operational efficiency.
 The objective is to provide a structured performance monitoring view that enables management to identify high-performing teams, detect quality risks, and assess clean output volume.
 
 
-Business Objective
+##Business Objective
 
 The report answers the following questions:
 Which supervisors lead the most efficient teams?
@@ -15,11 +15,11 @@ What is the volume of successful (clean) samples delivered?
 Are there quality trends over time that require intervention?
 
 
-Data Model
+##Data Model
 
 The model follows a star-like structure:
 
-Fact Table:
+##Fact Table:
 
 Quality Data
 Date
@@ -43,7 +43,7 @@ Grain:
 One record per Employee per Auditor per Date.
 
 
-Core KPIs
+##Core KPIs
 
 Workload Metrics
 Total Tasks = SUM([Total Tasks])
@@ -56,14 +56,14 @@ Fatal Error % = Fatal Errors / Samples
 Quality Score % = 1 − Defect %
 
 
-Extended KPI (Custom Metric)
+##Extended KPI (Custom Metric)
 
 Successful Samples
 Successful Samples = Samples − Defects
 This metric highlights clean output volume rather than only percentages, providing a clearer view of usable production performance per supervisor and employee.
 
 
-Key Features
+##Key Features
 
 Supervisor-level filtering and comparison
 Hierarchical Employee → Supervisor performance view
@@ -72,14 +72,14 @@ Monthly defect trend monitoring
 Combined volume and quality analysis
 
 
-Tools Used
+##Tools Used
 
 Power BI Desktop
 DAX (SUM, DIVIDE, calculated measures)
 Data modeling & relational structure design
 
 
-Impact
+##Impact
 This dashboard demonstrates structured KPI design, hierarchical performance analysis, and quality monitoring logic suitable for operational and managerial decision-making environments.
 
 ## Author
