@@ -84,3 +84,11 @@ This dashboard demonstrates structured KPI design, hierarchical performance anal
 
 ## Author
 George Proikas
+
+## Screenshots
+
+![Dashboard Overview](screenshots/dashboard-overview.png)
+
+![Supervisor Breakdown](screenshots/supervisor-breakdown.png)
+
+![Successful Samples View](screenshots/successful-samples-view.png)
